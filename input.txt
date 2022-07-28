@@ -1,0 +1,14 @@
+startTracking(1112, ["UPI", "Karnataka", "Bangalore"]);
+startTracking(2451, ["UPI", "Karnataka", "Mysore"]);
+startTracking(3421, ["UPI", "Rajasthan", "Jaipur"]);
+startTracking(1221, ["Wallet", "Karnataka", "Bangalore"]);
+getCounts(["UPI"])
+getCounts(["UPI", "Karnataka"])
+getCounts(["UPI", "Karnataka", "Bangalore"])
+startTracking(4221, ["Wallet", "Karnataka", "Bangalore"]);
+stopTracking(1112);
+stopTracking(2451);
+getCounts(["UPI"])
+getCounts(["Wallet"])
+getCounts(["UPI", "Karnataka", "Bangalore"])
+getCounts(["Bangalore"])
